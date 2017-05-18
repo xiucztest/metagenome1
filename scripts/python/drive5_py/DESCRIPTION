@@ -1,1 +1,2 @@
-
+#
+python fastq_strip_barcode_relabel2.py reads.fastq CATGCTGCCTCCCGTAGGAGT barcodes.fa fixed > fixed.fastq
