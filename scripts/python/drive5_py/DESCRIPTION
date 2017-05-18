@@ -1,2 +1,6 @@
 #
 python fastq_strip_barcode_relabel2.py reads.fastq CATGCTGCCTCCCGTAGGAGT barcodes.fa fixed > fixed.fastq
+
+
+#examine read lengths to find reasonable trim length
+python read-histogram.py reads.fastq fastq 100
